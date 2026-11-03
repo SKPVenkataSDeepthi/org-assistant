@@ -1,0 +1,18 @@
+[
+  {"id": "SEC-142", "title": "Fix SQL injection flagged by SAST-001", "status": "in_progress", "assignee": "deepthi",
+   "timeline": [
+     {"date": "2026-10-28", "event": "Opened from SAST-001"},
+     {"date": "2026-10-29", "event": "Triaged as High; assigned to deepthi"},
+     {"date": "2026-10-31", "event": "Fix in review (PR #88)"}
+   ]},
+  {"id": "SEC-143", "title": "Rotate hardcoded secret (SAST-002)", "status": "open", "assignee": "unassigned",
+   "timeline": [
+     {"date": "2026-10-30", "event": "Opened from SAST-002"}
+   ]},
+  {"id": "SEC-140", "title": "Remediate command injection (SAST-003)", "status": "in_progress", "assignee": "venkata",
+   "timeline": [
+     {"date": "2026-10-25", "event": "Opened from SAST-003"},
+     {"date": "2026-10-27", "event": "Marked Critical; escalated"},
+     {"date": "2026-11-01", "event": "Patch deployed to staging"}
+   ]}
+]

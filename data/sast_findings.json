@@ -1,0 +1,6 @@
+[
+  {"id": "SAST-001", "severity": "high", "rule": "SQL Injection (CWE-89)", "file": "app/db/users.py", "line": 42, "status": "open", "description": "User input concatenated into a SQL query."},
+  {"id": "SAST-002", "severity": "medium", "rule": "Hardcoded Secret (CWE-798)", "file": "app/config.py", "line": 7, "status": "open", "description": "API key committed in source."},
+  {"id": "SAST-003", "severity": "critical", "rule": "Command Injection (CWE-78)", "file": "app/utils/shell.py", "line": 19, "status": "in_progress", "description": "Unsanitized input passed to os.system."},
+  {"id": "SAST-004", "severity": "low", "rule": "Weak Hash (CWE-328)", "file": "app/auth/hash.py", "line": 11, "status": "resolved", "description": "MD5 used for password hashing."}
+]
